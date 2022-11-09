@@ -8,12 +8,8 @@
     padding: 1em 0 0.5em 0;
 }
 
-.swiper-slide {
-    text-align: center;
-}
-
 .swiper-slide img {
-    width: 20%;
+    width: 100%;
 }
 
 .swiper-button-prev, .swiper-button-next {
