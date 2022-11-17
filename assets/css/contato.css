@@ -44,15 +44,23 @@
         column-gap: 3em;
     }
 
-    .contato__email {
-        width: 30%;
-    }
-
-    .contato__descricao {
+    .contato__email, .contato__descricao {
         width: 30%;
     }
 
     .contato__titulo {
         font-size: 24px;
     }
+}
+
+@media screen and (min-width: 1728px) {
+    .contato {
+        padding: 3em 27vw;
+    }
+
+    .contato__email, .contato__descricao {
+        width: 50%;
+    }
+
+
 }
