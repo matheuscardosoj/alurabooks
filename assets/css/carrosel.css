@@ -132,4 +132,8 @@
     .descricao__texto {
         font-size: 16px;
     }
+
+    .botoes__ancora:active {
+        background-color: var(--azul);
+    }
 }
